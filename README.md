@@ -36,7 +36,7 @@ config.oauth2.clientID=*****
 config.oauth2.clientSecret=*****
 security.oauth2.client.grantType=*****
 config.oauth2.accessTokenUri=*******
-...
+```
 ## User Data (data.sql)
 
 ```
