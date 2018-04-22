@@ -13,7 +13,7 @@ mvn spring-boot:run
 
 ## Configuration 
 I used H2 DB [Embedded Databases](https://dzone.com/articles/3-java-embedded-databases)
-to get information about user, you can add user in data.sql
+to get information about user, you can add user in [data.sql](/src/main/resources/data.sql)
 
 to secure methods, you can add the mapping in (ResourceServerConfiguration.java)
 ```
