@@ -53,14 +53,14 @@ Type of authorization : Authorization Code Grant (AuthorizationServerConfig.java
 * Use above given user details to login and generate the authorization token.
 ![login fill](/src/main/resources/pic/login fill.PNG)
 
-![Swagger-UI-login](/src/main/resources/picc/Swagger-UI-login.PNG)
+![Swagger-UI-login](/src/main/resources/pic/Swagger-UI-login.PNG)
 
 * Before : Unauthorized
-![before](/src/main/resources/picc/before.PNG)
+![before](/src/main/resources/pic/before.PNG)
 
 
 * After: you can now see information about user
-![after](/src/main/resources/picr.PNG)
+![after](/src/main/resources/pic/after.PNG)
 
 
 # useful links 
