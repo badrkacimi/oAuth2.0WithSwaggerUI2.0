@@ -59,6 +59,12 @@ config.oauth2.accessTokenUri=*******
 * After : you can now see information about user
 ![after](/src/main/resources/pic/after.PNG)
 
+# Postman
+* Use above given user details to login and generate the authorization token.
+![Swagger-UI-login](/src/main/resources/pic/postman1.PNG)
+
+* Use above given user details to login and generate the authorization token.
+![Swagger-UI-login](/src/main/resources/pic/postman2.PNG)
 
 # Useful links 
 http://www.bubblecode.net/fr/2016/01/22/comprendre-oauth2/
