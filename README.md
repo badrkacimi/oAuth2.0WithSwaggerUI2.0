@@ -59,7 +59,7 @@ Type of authorization : Authorization Code Grant (AuthorizationServerConfig.java
 ![before](/src/main/resources/pic/before.PNG)
 
 
-* After: you can now see information about user
+* After : you can now see information about user
 ![after](/src/main/resources/pic/after.PNG)
 
 
