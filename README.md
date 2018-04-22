@@ -60,10 +60,10 @@ config.oauth2.accessTokenUri=*******
 ![after](/src/main/resources/pic/after.PNG)
 
 # Postman
-* Use above given user details to login and generate the authorization token.
+* Test requests .
 ![Swagger-UI-login](/src/main/resources/pic/postman1.PNG)
 
-* Use above given user details to login and generate the authorization token.
+* get the authorization token from swagger-UI after login.
 ![Swagger-UI-login](/src/main/resources/pic/postman2.PNG)
 
 # Useful links 
