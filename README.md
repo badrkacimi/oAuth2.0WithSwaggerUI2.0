@@ -27,18 +27,17 @@ to secure methods, you can add the mapping in (ResourceServerConfiguration.java)
 
     }
 ```
-Type of authorization : Authorization Code Grant (AuthorizationServerConfig.java)
+Type of authorization : L’autorisation via mot de passe (Resource Owner Password Credentials Grant)
 ```
- public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
-        clients
-                .inMemory()
-                .withClient("client")
-                .authorizedGrantTypes("client_credentials", "password", "refresh_token", "authorization_code")
-                .scopes("read", "write")
-                .resourceIds("oauth2-resource")
-                .accessTokenValiditySeconds(expiration)
-                .refreshTokenValiditySeconds(expiration)
-                .secret("secret");
+oauth configurations : applications properties
+config.oauth2.tokenTimeout=3600
+config.oauth2.resource.id=oauth2-resource
+config.oauth2.clientID=client
+config.oauth2.clientSecret=secret
+security.oauth2.client.grantType=client_credentials
+config.oauth2.accessTokenUri=http://localhost:8080/api/oauth/token
+config.oauth2.userAuthorizationUri=http://localhost:8080/api/oauth/authorize
+config.oauth2.resourceURI= http://localhost:8080/api/oauth/authorize
 ```
 ## User Data (data.sql)
 
