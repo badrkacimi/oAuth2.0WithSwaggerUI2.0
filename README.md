@@ -60,7 +60,7 @@ config.oauth2.accessTokenUri=*******
 ![after](/src/main/resources/pic/after.PNG)
 
 
-# useful links 
+# Useful links 
 http://www.bubblecode.net/fr/2016/01/22/comprendre-oauth2/
 
 https://swagger.io/docs/specification/authentication/oauth2/
