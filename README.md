@@ -9,7 +9,7 @@ mvn spring-boot:run
 ## Swagger-UI
 * After starting the application Click on [Swagger-home](http://localhost:8080/api/swagger-ui.html)
 
-![Swagger-UI-Home](/authentication/src/main/resources/pic/Swagger-UI-Home.PNG)
+![Swagger-UI-Home](/src/main/resources/pic/Swagger-UI-Home.PNG.PNG)
 
 ## Configuration 
 I used H2 DB [Embedded Databases](https://dzone.com/articles/3-java-embedded-databases)
