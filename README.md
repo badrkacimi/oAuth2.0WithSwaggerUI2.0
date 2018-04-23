@@ -3,6 +3,7 @@
 ## How to Run ?
 
 ```
+mvn clean
 mvn spring-boot:run
 ```
 
@@ -28,8 +29,10 @@ to secure methods, you can add the mapping in (ResourceServerConfiguration.java)
     }
 ```
 Type of authorization : L’autorisation via mot de passe (Resource Owner Password Credentials Grant)
-```
+
 oauth configurations : applications properties
+
+```
 config.oauth2.tokenTimeout=3600
 config.oauth2.resource.id=*****
 config.oauth2.clientID=*****
@@ -68,6 +71,8 @@ config.oauth2.accessTokenUri=*******
 
 # Useful links 
 http://www.bubblecode.net/fr/2016/01/22/comprendre-oauth2/
+
+https://dzone.com/articles/hashing-passwords-in-java-with-bcrypt
 
 https://swagger.io/docs/specification/authentication/oauth2/
 
