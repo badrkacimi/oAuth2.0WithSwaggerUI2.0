@@ -50,10 +50,8 @@ config.oauth2.accessTokenUri=*******
 
 
 ## Authorize
-* Use above given user details to login and generate the authorization token
-
+* Use above given user details to login and generate the authorization token.
 ![login fill](/src/main/resources/pic/login fill.PNG)
-
 ![Swagger-UI-login](/src/main/resources/pic/Swagger-UI-login.PNG)
 
 * Before : Unauthorized
