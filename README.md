@@ -28,7 +28,9 @@ to secure methods, you can add the mapping in (ResourceServerConfiguration.java)
 
     }
 ```
-Type of authorization : L’autorisation via mot de passe (Resource Owner Password Credentials Grant)
+* Type of authorization : L’autorisation via mot de passe (Resource Owner Password Credentials Grant)
+
+* La sécurisation et l'autorisation est pris en charge au niveau de la méthode par les annotations, en définissant les rôles globales une seule fois dans la classe de configuration (ResourceServerConfiguration).
 
 oauth configurations : applications properties
 
