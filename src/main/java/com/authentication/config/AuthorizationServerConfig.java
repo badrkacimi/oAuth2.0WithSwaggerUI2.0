@@ -46,9 +46,9 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
     @Autowired
     private ClientDetailsService clientDetailsService;
 
-    @Bean
-    public PasswordEncoder passwordEncoder() {
-        return new BCryptPasswordEncoder();
+     @Bean
+    public Md5PasswordEncoder passwordEncoder() {
+        return new Md5PasswordEncoder();
     }
 
 
